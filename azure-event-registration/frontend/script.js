@@ -1,6 +1,8 @@
 // Frontend logic for Event Registration
 
 const apiBaseUrl = "/api"; // Azure Static Web Apps will route to Functions
+const API_BASE = "https://eventreg-func123.azurewebsites.net/api";
+
 
 // Handle Registration Form Submission
 const form = document.getElementById("registrationForm");
