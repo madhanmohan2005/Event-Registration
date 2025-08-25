@@ -1,0 +1,16 @@
+{
+  "name": "event-registration-api",
+  "version": "1.0.0",
+  "description": "Azure Functions backend for Event Registration App",
+  "main": "index.js",
+  "scripts": {
+    "start": "func start",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "@azure/cosmos": "^3.17.3",
+    "nodemailer": "^6.9.8"
+  }
+}
